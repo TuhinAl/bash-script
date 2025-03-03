@@ -21,6 +21,15 @@ Now, a better way to do that is to specify the `$PATH` variable instead of the e
 
 Once this is done, you will be able to run the script without having to provide the path like any of the other built-in or external commands that we saw earlier. To see the location of a command, run the which command followed by the name of the command you'd like to see the location of in this case running the which command and specifying the create and launch rocket command.
 
+##### Command line arguments:
+CLA stands for Command Line Arguments: In Shell, The command run by the user is split into multiple parts and each part is stored in a build in variable starting with the number zero. The first part is stored in `$0`, the second part is stored in `$1`, and so on. <br>
 
+#### Conditional statements:
+if[]; then 
+elif
+else
+fi
 
-
+![Image](shell-script/img/3.png) <br>
+![Image](shell-script/img/4.png) <br>
+![Image](shell-script/img/5.png) <br>
